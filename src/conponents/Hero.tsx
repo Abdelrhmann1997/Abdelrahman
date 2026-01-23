@@ -3,7 +3,7 @@ import { motion } from "motion/react"
 const Hero: React.FC = () => {
   return (
     <div id="home" className="px-16 min-h-screen w-full
-    items-center justify-center py-28 md:px-32">
+    items-center justify-center py-28 md:px-32 mt-20">
       <div className="flex flex-col items-center justify-center gap-10 text-white">
           <motion.div 
           initial={{y: -50,opacity: 0 }}
