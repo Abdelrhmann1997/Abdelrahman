@@ -17,10 +17,10 @@ const Navbar: React.FC = () => {
             <a href="#contact" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100 "><li>Contact</li></a>
         </ul>
         <ul className="hidden md:flex gap-5 ">
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:opacity-100 hover:text-blue-500"><BsLinkedin/></li>
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:opacity-100 hover:text-white"><BsGithub/></li>
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:opacity-100 bg-linear-to-r hover:from-[#8134AF] hover:via-[#DD2A7B] hover:to-[#F58529] rounded-lg"><BsInstagram/></li>
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:opacity-100 hover:text-[#5865F2]"><BsDiscord/></li>
+            <a className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:opacity-100 hover:text-blue-500" target="_blank" href="https://www.linkedin.com/in/abdo-elrahman-mohmed-106849224/"><BsLinkedin/></a>
+            <a className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:opacity-100 hover:text-white" target="_blank" href="https://github.com/Abdelrhmann1997"><BsGithub/></a>
+            <a className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:opacity-100 bg-linear-to-r hover:from-[#8134AF] hover:via-[#DD2A7B] hover:to-[#F58529] rounded-lg" target="_blank" href="https://www.instagram.com/abdo_elrahman_mohamed/"><BsInstagram/></a>
+            <a className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:opacity-100 hover:text-[#5865F2]" target="_blank" href="file:///D:/Python/Portfolio%20Website/discordapp.com/users/894490214578409482"><BsDiscord/></a>
         </ul>
         {isOpen ? (
             <BiX className="block md:hidden text-4xl cursor-pointer" onClick={menuOpen}/>
@@ -37,10 +37,10 @@ const Navbar: React.FC = () => {
                     <a href="#cv" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100 "><li>Download CV</li></a>
                 </ul>
                 <ul className="flex flex-wrap gap-5 ">
-                    <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:opacity-100 hover:text-blue-500"><BsLinkedin/></li>
-                    <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:opacity-100 hover:text-white"><BsGithub/></li>
-                    <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:opacity-100 bg-linear-to-r hover:from-[#8134AF] hover:via-[#DD2A7B] hover:to-[#F58529] rounded-lg"><BsInstagram/></li>
-                    <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:opacity-100 hover:text-[#5865F2]"><BsDiscord/></li>
+                    <a className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:opacity-100 hover:text-blue-500" target="_blank" href="https://www.linkedin.com/in/abdo-elrahman-mohmed-106849224/"><BsLinkedin/></a>
+                    <a className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:opacity-100 hover:text-white" target="_blank" href="https://github.com/Abdelrhmann1997"><BsGithub/></a>
+                    <a className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:opacity-100 bg-linear-to-r hover:from-[#8134AF] hover:via-[#DD2A7B] hover:to-[#F58529] rounded-lg" target="_blank" href="https://www.instagram.com/abdo_elrahman_mohamed/"><BsInstagram/></a>
+                    <a className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:opacity-100 hover:text-[#5865F2]" target="_blank" href="file:///D:/Python/Portfolio%20Website/discordapp.com/users/894490214578409482"><BsDiscord/></a>
                 </ul>
             </div>
         )}
