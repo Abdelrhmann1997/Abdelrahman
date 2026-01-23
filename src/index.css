@@ -1,0 +1,15 @@
+@import "tailwindcss";
+*{
+    font-family: "Poppins";
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.9);
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, rgba(0, 92, 196, 0.822), rgb(117, 0, 184));
+    border-radius: 8px;
+}
