@@ -3,7 +3,7 @@ import type { FormEvent } from 'react';
 import { MdOutlineMail } from "react-icons/md";
 import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import emailjs from '@emailjs/browser';
-import mycv from "../assets/Abdelrhman-CV33.pdf";
+import mycv from "../assets/Abdelrahman-CV44.pdf";
 
 // تعريف الواجهة للبيانات
 interface ContactItem {

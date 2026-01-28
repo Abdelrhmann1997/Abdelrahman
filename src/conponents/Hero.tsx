@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
         className="flex max-w-150 flex-col items-center justify-center gap-3 text-center">
             <h1 className="bg-linear-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent text-5xl font-light md:text-7xl">Abdelrahman Mohamed</h1>
             <h3 className="bg-linear-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-2xl md:text-3xl">I'm a React Frontend Developer</h3>
-            <p className="md:text-base text-pretty text-sm text-gray-400">Frontend Developer with a strong foundation in HTML, CSS, and JavaScript. Focused on building modern, scalable, and responsive web applications using React.js. Experienced in creating reusable components, managing application state, and integrating REST APIs.</p>
+            <p className="md:text-base text-pretty text-sm text-gray-400">Frontend Developer with a strong foundation in HTML, CSS, and JavaScript, specializing in building modern, scalable, and responsive web applications using React.js and TypeScript. Experienced in creating reusable components, managing application state, integrating REST APIs, and debugging issues to deliver clean and reliable user interfaces.</p>
         </motion.div>
       </div>
     </div>

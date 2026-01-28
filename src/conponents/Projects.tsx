@@ -6,6 +6,7 @@ import gamestorimg from "../assets/qq1 (2).png"
 import storimg from "../assets/qq1 (4).png"
 import wather from "../assets/qq1 (3).png"
 import calcimg from "../assets/qq6.png"
+import shoplov from "../assets/Lovable App - shop.png"
 import { motion } from "motion/react"
 import type { ReactNode } from "react";
 
@@ -39,6 +40,12 @@ const projectsData = [
     technologies: ["React","Tailwind","TypeScript"],
   },
   {
+    image: shoplov,
+    title: "LUXE",
+    description: "A modern fashion e-commerce website for clothing and shoes, featuring a clean and elegant interface, responsive design, smooth browsing experience, and well-organized product categories.",
+    technologies: ["React","Tailwind","TypeScript"],
+  },
+  {
     image: gamestorimg,
     title: "Gaming Storer",
     description: "A gaming store platform showcasing games, accessories, and consoles with an engaging design, smooth browsing, and a responsive user experience.",
@@ -54,12 +61,6 @@ const projectsData = [
     image: wather,
     title: "Weather App",
     description: "A weather application providing real-time forecasts, temperature updates, and location-based weather insights through a clean, responsive interface.",
-    technologies: ["HTML","CSS","JavaScript"],
-  },
-  {
-    image: calcimg,
-    title: "Calculator",
-    description: "A simple calculator application performing basic arithmetic operations with a clean interface, responsive design, and accurate real-time results.",
     technologies: ["HTML","CSS","JavaScript"],
   },
 ]
