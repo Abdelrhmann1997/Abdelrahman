@@ -5,8 +5,7 @@ import noteimg from "../assets/notes.png"
 import gamestorimg from "../assets/qq1 (2).png"
 import storimg from "../assets/qq1 (4).png"
 import wather from "../assets/qq1 (3).png"
-import calcimg from "../assets/qq6.png"
-import shoplov from "../assets/Lovable App - shop.png"
+import shoplov from "../assets/Luex App - shop.png"
 import { motion } from "motion/react"
 import type { ReactNode } from "react";
 
