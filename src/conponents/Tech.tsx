@@ -1,4 +1,5 @@
 import { motion } from "motion/react"
+import { SiNextdotjs } from "react-icons/si";
 import { 
   BiLogoTypescript,
   BiLogoJavascript,
@@ -49,6 +50,13 @@ const Tech: React.FC = () => {
         whileInView="visible"
         transition={{duration: 0.5, delay:0.2 }}>
         <BiLogoReact className="cursor-pointer text-[80px] text-[#61DAFB] transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]"/>
+        </motion.div>
+        <motion.div 
+        variants={variants}
+        initial="hidden"
+        whileInView="visible"
+        transition={{duration: 0.5, delay:0.2 }}>
+          <SiNextdotjs  className="cursor-pointer md:w-27 md:h-27 text-[80px] text-black  bg-white rounded-full ring-2 ring-inset ring-black transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]"/>
         </motion.div>
         <motion.div 
         variants={variants}

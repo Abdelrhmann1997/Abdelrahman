@@ -4,7 +4,7 @@ import worldimg from "../assets/world (1).png"
 import noteimg from "../assets/notes.png"
 import gamestorimg from "../assets/qq1 (2).png"
 import storimg from "../assets/qq1 (4).png"
-import wather from "../assets/qq1 (3).png"
+import omer from "../assets/WhatsApp Image 2026-03-24 at 2.12.35 AM.jpeg"
 import shoplov from "../assets/Luex App - shop.png"
 import { motion } from "motion/react"
 import type { ReactNode } from "react";
@@ -39,6 +39,12 @@ const projectsData = [
     technologies: ["React","Tailwind","TypeScript"],
   },
   {
+    image: omer,
+    title: "Graphic Designer Portfolio",
+    description: "A graphic designer portfolio website built with Swiper, featuring a clean and modern design to showcase projects in a smooth and visually engaging way. The application focuses on presenting design work through an interactive slider, allowing users to browse projects easily with a polished and responsive interface that highlights creativity and delivers a seamless viewing experience across all devices.",
+    technologies: ["React","Next.js","Tailwind","TypeScript"],
+  },
+  {
     image: shoplov,
     title: "LUXE",
     description: "A modern fashion e-commerce website for clothing and shoes, featuring a clean and elegant interface, responsive design, smooth browsing experience, and well-organized product categories.",
@@ -54,12 +60,6 @@ const projectsData = [
     image: storimg,
     title: "Sports Store",
     description: "An e-commerce sports store showcasing athletic clothing and footwear with high-quality visuals, smooth navigation, and a modern, responsive shopping experience.",
-    technologies: ["HTML","CSS","JavaScript"],
-  },
-  {
-    image: wather,
-    title: "Weather App",
-    description: "A weather application providing real-time forecasts, temperature updates, and location-based weather insights through a clean, responsive interface.",
     technologies: ["HTML","CSS","JavaScript"],
   },
 ]
